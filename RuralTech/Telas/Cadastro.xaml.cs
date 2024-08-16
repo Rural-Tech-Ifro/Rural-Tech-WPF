@@ -23,5 +23,26 @@ namespace RuralTech.Telas
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Login tela = new Login();
+            this.Close();
+            tela.ShowDialog();
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            
+            var usuario = txt_usuario.Text;
+            var email = txt_email.Text;
+            var senha = txt_senha.Password;
+
+            if (usuario != "" && email != "" && senha != "")
+            {
+                MessageBox.Show(usuario + senha + email);
+            }
+        }
     }
 }
