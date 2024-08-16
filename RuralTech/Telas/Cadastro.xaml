@@ -75,6 +75,7 @@
     MaxLength="40"
     Style="{StaticResource MaterialDesignFilledTextBox}"
     TextWrapping="Wrap"
+                            
     />
                     </StackPanel>
 

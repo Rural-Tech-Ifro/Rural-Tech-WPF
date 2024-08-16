@@ -23,5 +23,10 @@ namespace RuralTech.Telas
         {
             InitializeComponent();
         }
+
+        private void TextBox_ColorChanged(object sender, RoutedPropertyChangedEventArgs<Color> e)
+        {
+
+        }
     }
 }
